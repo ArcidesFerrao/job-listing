@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/ArcidesFerrao/job-listing)
-- Live Site URL: [Vercel Deployment](https://your-live-site-url.com)
+- Live Site URL: [Vercel Deployment](https://job-listing-three-gamma.vercel.app/)
 
 ## My process
 
