@@ -24,7 +24,7 @@ function App() {
       </div>
       <div className="search-bar">
         <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
-        <button>Clear</button>
+        <button onClick={(e) =>  {e.preventDefault(); setQuery(""); }} >Clear</button>
     </div>
       <JobList data={search(data)} />
     </main>

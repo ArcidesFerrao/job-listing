@@ -55,7 +55,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
 
   img {
     max-height: 100%;
@@ -64,15 +63,20 @@ button {
 }
 
 .search-bar {
+  z-index: 1000;
+  position: absolute;
+  top: 5rem !important;
   display: flex;
   align-items: center;
   justify-self: center;
   padding: 0.4rem 1rem;
   width: 80%;
+  max-width: 600px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
+  background-color: var(--bg-color);
   input {
     width: 100%;
   }
@@ -172,5 +176,43 @@ button {
   .job h1:hover {
     color: var(--light-cyan) !important;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 800px) {
+  .search-bar {
+    max-width: 300px;
+    top: 20px;
+  }
+  .job-list {
+    gap: 2rem;
+    width: fit-content;
+  }
+  .job-card {
+    display: flex !important;
+    flex-direction: column;
+    width: 300px;
+    align-self: center;
+    justify-content: flex-start;
+    padding: 2rem 1rem;
+    .info {
+      width: 100%;
+    }
+    .icon {
+      position: relative;
+      img {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        top: -40px;
+        left: -150px;
+      }
+    }
+    .tags {
+      display: flex;
+      flex-flow: row;
+      padding: 1rem;
+      /* border-top: 1px solid; */
+    }
   }
 }

@@ -1,7 +1,7 @@
 
 export default function JobList({data}) {
     const jobData = data ;
-    if (jobData.length === 0 ) return <p>jobs not found</p>
+    if (jobData.length === 0 ) return <div className="job-list"><p className="job-card" >no jobs found</p></div>
 
 
   return (
