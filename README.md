@@ -10,11 +10,11 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Installation](#installation)
+  - [Scripts](#scripts)
+  - [Tech Stack](#tech-stack)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -98,11 +98,11 @@ Users should be able to:
 
 ### Continued development
 
-This project was an excellent learning experience, particularly in enhancing my skills with filtering and searching through objects and arrays. As I worked through the challenge of implementing search and filter functionality for the job listings, I needed to learn how to effectively manipulate data structures such as arrays of objects to filter the data based on user input.
+As I worked through the challenge of implementing search and filter functionality for the job listings, I needed to learn how to effectively manipulate data structures such as arrays of objects to filter the data based on user input.
 
-The challenge helped me become more comfortable with JavaScript array methods like `.filter()`, `.map()`, and `.includes()`. I had to dynamically filter through job titles, locations, and other attributes, which required thinking critically about how to structure the data for efficient searching. I also had to ensure that the filter logic was optimized for performance, especially when working with larger datasets.
+The challenge helped me become more comfortable with JavaScript array methods like `.filter()`, `.map()`, and `.includes()`. I had to dynamically filter through job titles, locations, and other attributes, which required thinking critically about how to structure the data for efficient searching.
 
-Moreover, it was an opportunity to explore best practices for handling complex UI updates in React when data changes, which helped improve my understanding of state management and re-rendering in React. This project allowed me to deepen my knowledge of how React’s rendering lifecycle works and how to handle user-driven interactions in a dynamic way.
+Moreover, it was an opportunity to explore best practices for handling complex UI updates in React when data changes, which helped improve my understanding of state management and re-rendering in React.
 
 Moving forward, I plan to further improve the efficiency of the filtering system, such as by implementing debouncing for search inputs to reduce the number of operations performed when users type. Additionally, I want to explore integrating a more sophisticated back-end API for dynamic job listings and potentially adding advanced features like multi-level filtering or sorting.
 
